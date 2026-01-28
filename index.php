@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Allan Rodriguez | Portafolio Profesional</title>
     
-    <!-- Enlace al CSS -->
+    <!-- CSS con refresco de cache -->
     <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
     
     <!-- Fuentes e Iconos -->
@@ -20,7 +20,6 @@
             <div class="nav-links">
                 <a href="#habilidades">Habilidades</a>
                 <a href="#proyectos">Proyectos</a>
-                <a href="#contacto">Contacto</a>
                 <button id="theme-toggle" class="theme-btn"><i class="fas fa-moon"></i></button>
                 <a href="descargas/Allan_Rodriguez_CV.pdf" download class="btn-cv">
                     <i class="fas fa-download"></i> MI CV
@@ -29,28 +28,18 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <header class="hero">
         <div class="hero-left">
             <div class="hero-content">
-                <span class="badge">INGENIER&Iacute;A DE SOFTWARE & DISE&Ntilde;O</span>
+                <span class="badge">INGENIERÍA DE SOFTWARE & DISEÑO</span>
                 <h1>DEVELOPMENT <br><span class="thin">& DESIGN</span></h1>
-                <p>Allan David Rodriguez Quintana. Estudiante de 3er Semestre en la Universidad de Guayaquil. Fusionando l&oacute;gica y est&eacute;tica.</p>
-                
+                <p>Allan David Rodriguez Quintana. Estudiante de 3er Semestre en la Universidad de Guayaquil. Creando soluciones tecnológicas con enfoque en UX/UI profesional.</p>
                 <div class="hero-btns">
-                    <a href="https://wa.me/593990350244" target="_blank" class="btn btn-cyan">
-                        <i class="fab fa-whatsapp"></i> WhatsApp
-                    </a>
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=allanrodriguez1610@gmail.com" target="_blank" class="btn btn-outline">
-                        <i class="fas fa-envelope"></i> Contactar por Email
-                    </a>
-                    <a href="https://www.linkedin.com/in/allan-david-rodriguez-quintana-11937538a" target="_blank" class="btn btn-outline">
-                        <i class="fab fa-linkedin-in"></i> LinkedIn
-                    </a>
+                    <a href="https://wa.me/593990350244" target="_blank" class="btn btn-cyan"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    <a href="https://www.linkedin.com/in/allan-david-rodriguez-quintana-11937538a" target="_blank" class="btn btn-outline"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
                 </div>
             </div>
         </div>
-        
         <div class="hero-right">
             <div class="curva-bg"></div>
             <div class="img-wrapper">
@@ -59,86 +48,77 @@
         </div>
     </header>
 
-    <!-- SECCIÓN HABILIDADES (Hover para revelar porcentajes) -->
     <section id="habilidades" class="skills-section">
-        <div class="container">
+        <div class="container-wide">
+            <span class="label-top">LO QUE HAGO</span>
             <h2 class="title">Mis Habilidades</h2>
             <div class="skills-grid">
-                
                 <div class="skill-card">
-                    <div class="skill-main">
-                        <i class="fas fa-code"></i>
-                        <h3>Frontend Dev</h3>
-                    </div>
+                    <div class="skill-main"><i class="fas fa-code"></i><h3>Frontend Dev</h3></div>
                     <div class="skill-stats">
-                        <div class="stat-bar"><span>HTML/CSS</span> <span>85%</span><div class="bar"><div class="fill" style="width:85%"></div></div></div>
-                        <div class="stat-bar"><span>JavaScript</span> <span>60%</span><div class="bar"><div class="fill" style="width:60%"></div></div></div>
+                        <div class="stat-bar"><span>HTML5/CSS3</span> <span>70%</span><div class="bar"><div class="fill" style="width:70%"></div></div></div>
+                        <div class="stat-bar"><span>JavaScript</span> <span>50%</span><div class="bar"><div class="fill" style="width:50%"></div></div></div>
                     </div>
                 </div>
-
                 <div class="skill-card">
-                    <div class="skill-main">
-                        <i class="fas fa-terminal"></i>
-                        <h3>L&oacute;gica & C++</h3>
-                    </div>
+                    <div class="skill-main"><i class="fas fa-coffee"></i><h3>Java & Backend</h3></div>
                     <div class="skill-stats">
-                        <div class="stat-bar"><span>Algoritmos</span> <span>75%</span><div class="bar"><div class="fill" style="width:75%"></div></div></div>
-                        <div class="stat-bar"><span>POO</span> <span>70%</span><div class="bar"><div class="fill" style="width:70%"></div></div></div>
+                        <div class="stat-bar"><span>Java SE / POO</span> <span>65%</span><div class="bar"><div class="fill" style="width:65%"></div></div></div>
+                        <div class="stat-bar"><span>Patrón MVC</span> <span>40%</span><div class="bar"><div class="fill" style="width:40%"></div></div></div>
                     </div>
                 </div>
-
                 <div class="skill-card">
-                    <div class="skill-main">
-                        <i class="fas fa-gamepad"></i>
-                        <h3>Videojuegos</h3>
-                    </div>
+                    <div class="skill-main"><i class="fas fa-gamepad"></i><h3>Videojuegos</h3></div>
                     <div class="skill-stats">
-                        <div class="stat-bar"><span>GDevelop</span> <span>90%</span><div class="bar"><div class="fill" style="width:90%"></div></div></div>
+                        <div class="stat-bar"><span>Lógica Eventos</span> <span>80%</span><div class="bar"><div class="fill" style="width:80%"></div></div></div>
+                        <div class="stat-bar"><span>Física 2D</span> <span>45%</span><div class="bar"><div class="fill" style="width:45%"></div></div></div>
                     </div>
                 </div>
-
+                <div class="skill-card">
+                    <div class="skill-main"><i class="fas fa-database"></i><h3>Gestión de Datos</h3></div>
+                    <div class="skill-stats">
+                        <div class="stat-bar"><span>SQL Queries</span> <span>60%</span><div class="bar"><div class="fill" style="width:60%"></div></div></div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- SECCIÓN PROYECTOS DESTACADOS (Iconos + Botones) -->
     <section id="proyectos" class="projects">
-        <div class="container">
+        <div class="container-wide">
             <h2 class="title">Proyectos Destacados</h2>
-            <div class="grid">
-                
-                <div class="card card-project">
-                    <div class="icon-box"><i class="fas fa-gamepad"></i></div>
-                    <span class="p-category">DESARROLLO DE VIDEOJUEGOS</span>
-                    <h3>Batalla del Pichincha</h3>
-                    <p>Videojuego educativo desarrollado en GDevelop sobre la historia del Ecuador, con l&oacute;gica orientada a eventos.</p>
-                    <!-- Link Real del Juego -->
-                    <a href="https://gd.games/instant-builds/1ce0e1c1-3f8c-4d4b-a6a1-d0a46759c08f" target="_blank" class="btn-p-action">
-                        Jugar Ahora <i class="fas fa-play"></i>
-                    </a>
+            <div class="grid-projects">
+                <div class="project-item">
+                    <div class="icon-header"><i class="fas fa-gamepad"></i></div>
+                    <div class="p-info">
+                        <span class="p-cat">DESARROLLO DE VIDEOJUEGOS</span>
+                        <h3>Aventura 2D: Lógica Basada en Eventos</h3>
+                        <p>Videojuego 2D desarrollado en GDevelop. Implementación de mecánicas complejas mediante POE.</p>
+                        <a href="https://gd.games/instant-builds/1ce0e1c1-3f8c-4d4b-a6a1-d0a46759c08f" target="_blank" class="btn-p">Jugar Ahora <i class="fas fa-play"></i></a>
+                    </div>
                 </div>
-
-                <div class="card card-project">
-                    <div class="icon-box"><i class="fas fa-shopping-cart"></i></div>
-                    <span class="p-category">DESARROLLO WEB FULLSTACK</span>
-                    <h3>E-commerce PHP</h3>
-                    <p>Tienda virtual con procesamiento de datos din&aacute;micos y backend robusto en PHP/MySQL bajo XAMPP.</p>
-                    <a href="#" class="btn-p-action">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+                <div class="project-item">
+                    <div class="icon-header"><i class="fas fa-coffee"></i></div>
+                    <div class="p-info">
+                        <span class="p-cat">DESARROLLO BACKEND</span>
+                        <h3>Sistema de Gestión Java</h3>
+                        <p>Aplicación robusta con Java SE aplicando pilares de POO como herencia y encapsulamiento.</p>
+                        <a href="https://github.com/allanrodriguez1610-blip/Mi-Portafolio-Profesional" target="_blank" class="btn-p dark-p">Ver Código <i class="fab fa-github"></i></a>
+                    </div>
                 </div>
-
-                <div class="card card-project">
-                    <div class="icon-box"><i class="fas fa-laptop-code"></i></div>
-                    <span class="p-category">DISE&Ntilde;O UX/UI</span>
-                    <h3>Portafolio Profesional</h3>
-                    <p>Dise&ntilde;o de interfaz optimizada para perfiles tecnol&oacute;gicos. Implementaci&oacute;n de Responsive Design.</p>
-                    <a href="#" class="btn-p-action">Ver Repositorio <i class="fas fa-code"></i></a>
+                <div class="project-item">
+                    <div class="icon-header"><i class="fas fa-vr-cardboard"></i></div>
+                    <div class="p-info">
+                        <span class="p-cat">REALIDAD AUMENTADA</span>
+                        <h3>Visualización Merge Cube</h3>
+                        <p>Experiencia AR utilizando tecnología Merge Cube con integración de modelos 3D.</p>
+                        <a href="https://edu.delightex.com/WUR-SFD" target="_blank" class="btn-p">Ver Experiencia <i class="fas fa-arrow-right"></i></a>
+                    </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <!-- SECCIÓN CONTACTO -->
     <section id="contacto" class="contact-section">
         <div class="container">
             <h2 class="title">Contacto</h2>
@@ -147,14 +127,14 @@
                     <div class="input-group"><label>Nombre</label><input type="text" name="name" required></div>
                     <div class="input-group"><label>Correo</label><input type="email" name="email" required></div>
                     <div class="input-group"><label>Mensaje</label><textarea name="message" rows="4" required></textarea></div>
-                    <button type="submit" class="btn btn-dark" style="width:100%; border:none; cursor:pointer;">Enviar Mensaje</button>
+                    <button type="submit" class="btn-dark-full">Enviar Mensaje</button>
                 </form>
             </div>
         </div>
     </section>
 
     <footer class="footer">
-        <p>&copy; 2024 Allan Rodriguez Quintana · Guayaquil, Ecuador</p>
+        <p>&copy; 2024 Allan Rodriguez Quintana</p>
     </footer>
 
     <script>
